@@ -8,7 +8,6 @@ import { MaterialModule } from './material/material.module';
 import { HeaderComponent } from './header/header.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { HomeComponent } from './home/home.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
 import { StudentlistComponent } from './studentlist/studentlist.component';
 import { StudentaddComponent } from './studentadd/studentadd.component';
 import { StudenteditComponent } from './studentedit/studentedit.component';
@@ -25,7 +24,6 @@ import { AdminDashboardComponent } from './dashboard/admin-dashboard/admin-dashb
     HeaderComponent,
     SidenavComponent,
     HomeComponent,
-    DashboardComponent,
     StudentlistComponent,
     StudentaddComponent,
     StudenteditComponent,
