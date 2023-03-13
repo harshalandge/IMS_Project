@@ -1,0 +1,22 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+:host{
+    display:flex ;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+mat-drawer{
+    width: 290px;
+    background-color: azure;
+}
+
+mat-drawer-container{
+    height:100% ;
+}

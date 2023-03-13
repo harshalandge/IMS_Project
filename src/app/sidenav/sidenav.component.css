@@ -1,0 +1,68 @@
+
+
+#logo{
+  
+    width: 130px;
+    padding-left: 6px;
+}
+
+hr{
+    color: rgb(184, 186, 187);
+    border-top-width: 2px;
+}
+
+.mat-list-item{
+    color: antiquewhite;
+    text-align: center;
+   
+}
+.accordion-button:hover {
+    margin-left: 9px;
+    background-color: #fff;
+    color: #18aefa;
+}
+
+ .accordion-body a:hover {
+    background-color: #fff;
+    color: #18aefa;
+    } 
+
+.accordion-button{
+    height: 25px;
+    text-align: center;
+}
+.accordion-body li,a{
+    text-decoration: none;
+    color: black;
+
+}
+.accordion-body ul{
+   list-style-type: none;
+}
+
+.manage{
+    background-color: white;
+}
+
+.manage h4:hover{
+    background-color: white;
+    margin-left: 20px;
+    background-color: #fff;
+    color: #18aefa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
