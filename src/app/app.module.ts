@@ -16,6 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TeacherComponent } from './teacher/teacher.component';
 import { TeacherlistComponent } from './teacher/teacherlist/teacherlist.component';
+import { AdminDashboardComponent } from './dashboard/admin-dashboard/admin-dashboard.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { TeacherlistComponent } from './teacher/teacherlist/teacherlist.componen
     StudentaddComponent,
     StudenteditComponent,
     TeacherComponent,
-    TeacherlistComponent
+    TeacherlistComponent,
+    AdminDashboardComponent
   ],
   imports: [
     BrowserModule,
