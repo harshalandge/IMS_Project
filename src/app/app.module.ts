@@ -16,7 +16,11 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TeacherComponent } from './teacher/teacher.component';
 import { TeacherlistComponent } from './teacher/teacherlist/teacherlist.component';
 import { AdminDashboardComponent } from './dashboard/admin-dashboard/admin-dashboard.component';
-
+import { TeacherDashboardComponent } from './dashboard/teacher-dashboard/teacher-dashboard.component';
+import { StudentDashboardComponent } from './dashboard/student-dashboard/student-dashboard.component';
+import { NgApexchartsModule } from 'ng-apexcharts';
+// ---------------------------dashboard---------------
+import { CalendarModule } from '@syncfusion/ej2-angular-calendars';
 
 @NgModule({
   declarations: [
@@ -29,7 +33,9 @@ import { AdminDashboardComponent } from './dashboard/admin-dashboard/admin-dashb
     StudenteditComponent,
     TeacherComponent,
     TeacherlistComponent,
-    AdminDashboardComponent
+    AdminDashboardComponent,
+    TeacherDashboardComponent,
+    StudentDashboardComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +44,9 @@ import { AdminDashboardComponent } from './dashboard/admin-dashboard/admin-dashb
    MaterialModule,
    HttpClientModule,
    FormsModule,
-   ReactiveFormsModule
+   ReactiveFormsModule,
+   NgApexchartsModule,
+   CalendarModule
     
   ],
   providers: [],
