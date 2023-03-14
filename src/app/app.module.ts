@@ -8,7 +8,8 @@ import { MaterialModule } from './material/material.module';
 import { HeaderComponent } from './header/header.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { HomeComponent } from './home/home.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
+
+
 
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -17,6 +18,7 @@ import { TeacherlistComponent } from './teacher/teacherlist/teacherlist.componen
 import { TeacheraddComponent } from './teacher/teacheradd/teacheradd.component';
 
 import { TeachereditComponent } from './teacher/teacheredit/teacheredit.component';
+import { TeacherviewComponent } from './teacher/teacherview/teacherview.component';
 
 
 @NgModule({
@@ -25,13 +27,17 @@ import { TeachereditComponent } from './teacher/teacheredit/teacheredit.componen
     HeaderComponent,
     SidenavComponent,
     HomeComponent,
-    DashboardComponent,
+
   
   
     TeacherlistComponent,
     TeacheraddComponent,
-   
+   TeacherviewComponent,
     TeachereditComponent
+
+  
+    
+
   ],
   imports: [
     BrowserModule,
