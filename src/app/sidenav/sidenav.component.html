@@ -96,13 +96,13 @@
         data-bs-parent="#accordionExample">
         <div class="accordion-body mx-4">
           <ul>
-            <li><a href="">
+            <li><a [routerLink]="['/departmentlist']">
                 <h3>Department List</h3>
               </a></li>
-            <li> <a href="">
+            <li> <a [routerLink]="['/departmentadd']">
                 <h3>Department Add</h3>
               </a></li>
-            <li> <a href="">
+            <li> <a [routerLink]="['departmentedit']">
                 <h3>Department Edit</h3>
               </a></li>
           </ul>
@@ -152,7 +152,7 @@
         data-bs-parent="#accordionExample">
         <div class="accordion-body mx-4">
           <ul>
-            <li><a href="">
+            <li><a [routerLink]="['feesCollection']">
                 <h3>Fees Collection</h3>
               </a></li>
             <li> <a href="">
@@ -212,7 +212,7 @@
             <li><a href="">
                 <h3>Login</h3>
               </a></li>
-            <li> <a href="">
+            <li> <a [routerLink]="['/register/']">
                 <h3>Register</h3>
               </a></li>
             <li> <a href="">
