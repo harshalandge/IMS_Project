@@ -20,7 +20,12 @@ import { DepartmentAddComponent } from './department-add/department-add.componen
 import { DepartmentEditComponent } from './department-edit/department-edit.component';
 import { FeesCollectionComponent } from './fees-collection/fees-collection.component';
 import { RegisterComponent } from './register/register.component';
-
+import { AdminDashboardComponent } from './dashboard/admin-dashboard/admin-dashboard.component';
+import { TeacherDashboardComponent } from './dashboard/teacher-dashboard/teacher-dashboard.component';
+import { StudentDashboardComponent } from './dashboard/student-dashboard/student-dashboard.component';
+import { NgApexchartsModule } from 'ng-apexcharts';
+// ---------------------------dashboard---------------
+import { CalendarModule } from '@syncfusion/ej2-angular-calendars';
 
 @NgModule({
   declarations: [
@@ -38,6 +43,9 @@ import { RegisterComponent } from './register/register.component';
     DepartmentEditComponent,
     FeesCollectionComponent,
     RegisterComponent
+    AdminDashboardComponent,
+    TeacherDashboardComponent,
+    StudentDashboardComponent
   ],
   imports: [
     BrowserModule,
@@ -46,7 +54,9 @@ import { RegisterComponent } from './register/register.component';
    MaterialModule,
    HttpClientModule,
    FormsModule,
-   ReactiveFormsModule
+   ReactiveFormsModule,
+   NgApexchartsModule,
+   CalendarModule
     
   ],
   providers: [],
