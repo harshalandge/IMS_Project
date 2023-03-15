@@ -15,6 +15,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TeacherComponent } from './teacher/teacher.component';
 import { TeacherlistComponent } from './teacher/teacherlist/teacherlist.component';
+import { AddsubjectComponent } from './subject/addsubject/addsubject.component';
+import { ListsubjectComponent } from './subject/listsubject/listsubject.component';
+import { EditsubjectComponent } from './subject/editsubject/editsubject.component';
 
 
 @NgModule({
@@ -27,7 +30,10 @@ import { TeacherlistComponent } from './teacher/teacherlist/teacherlist.componen
     StudentaddComponent,
     StudenteditComponent,
     TeacherComponent,
-    TeacherlistComponent
+    TeacherlistComponent,
+    AddsubjectComponent,
+    ListsubjectComponent,
+    EditsubjectComponent
   ],
   imports: [
     BrowserModule,
