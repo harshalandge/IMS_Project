@@ -8,13 +8,20 @@ import { MaterialModule } from './material/material.module';
 import { HeaderComponent } from './header/header.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { HomeComponent } from './home/home.component';
-import { StudentlistComponent } from './studentlist/studentlist.component';
-import { StudentaddComponent } from './studentadd/studentadd.component';
-import { StudenteditComponent } from './studentedit/studentedit.component';
+
+
+
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { TeacherComponent } from './teacher/teacher.component';
+
 import { TeacherlistComponent } from './teacher/teacherlist/teacherlist.component';
+
+import { TeacheraddComponent } from './teacher/teacheradd/teacheradd.component';
+
+import { TeachereditComponent } from './teacher/teacheredit/teacheredit.component';
+import { TeacherviewComponent } from './teacher/teacherview/teacherview.component';
+
+
 import { AddsubjectComponent } from './subject/addsubject/addsubject.component';
 import { ListsubjectComponent } from './subject/listsubject/listsubject.component';
 import { EditsubjectComponent } from './subject/editsubject/editsubject.component';
@@ -30,12 +37,26 @@ import { NgApexchartsModule } from 'ng-apexcharts';
 // ---------------------------dashboard---------------
 import { CalendarModule } from '@syncfusion/ej2-angular-calendars';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     SidenavComponent,
     HomeComponent,
+
+
+  
+  
+    TeacherlistComponent,
+    TeacheraddComponent,
+   TeacherviewComponent,
+    TeachereditComponent
+
+  
+    
+
+
     StudentlistComponent,
     StudentaddComponent,
     StudenteditComponent,
@@ -52,6 +73,7 @@ import { CalendarModule } from '@syncfusion/ej2-angular-calendars';
     AdminDashboardComponent,
     TeacherDashboardComponent,
     StudentDashboardComponent
+
   ],
   imports: [
     BrowserModule,
