@@ -20,15 +20,16 @@ import { DepartmentAddComponent } from './department-add/department-add.componen
 import { DepartmentEditComponent } from './department-edit/department-edit.component';
 import { FeesCollectionComponent } from './fees-collection/fees-collection.component';
 import { RegisterComponent } from './register/register.component';
-import { AdminDashboardComponent } from './dashboard/admin-dashboard/admin-dashboard.component';
+
+ import { AdminDashboardComponent } from './dashboard/admin-dashboard/admin-dashboard.component';
 import { TeacherDashboardComponent } from './dashboard/teacher-dashboard/teacher-dashboard.component';
 import { StudentDashboardComponent } from './dashboard/student-dashboard/student-dashboard.component';
 import { NgApexchartsModule } from 'ng-apexcharts';
 // ---------------------------dashboard---------------
-import { CalendarModule } from '@syncfusion/ej2-angular-calendars';
+import { CalendarModule, DatePickerModule, DateRangePickerModule, DateTimePickerModule, TimePickerModule } from '@syncfusion/ej2-angular-calendars';
 
 @NgModule({
-  declarations: [
+  declarations: [  
     AppComponent,
     HeaderComponent,
     SidenavComponent,
@@ -56,7 +57,12 @@ import { CalendarModule } from '@syncfusion/ej2-angular-calendars';
    FormsModule,
    ReactiveFormsModule,
    NgApexchartsModule,
-   CalendarModule
+   CalendarModule,
+    DatePickerModule,
+     TimePickerModule, 
+     DateRangePickerModule,
+      DateTimePickerModule
+    
     
   ],
   providers: [],
