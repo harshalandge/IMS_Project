@@ -15,6 +15,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TeacherComponent } from './teacher/teacher.component';
 import { TeacherlistComponent } from './teacher/teacherlist/teacherlist.component';
+import { AddsubjectComponent } from './subject/addsubject/addsubject.component';
+import { ListsubjectComponent } from './subject/listsubject/listsubject.component';
+import { EditsubjectComponent } from './subject/editsubject/editsubject.component';
 import { DepartmentListComponent } from './department-list/department-list.component';
 import { DepartmentAddComponent } from './department-add/department-add.component';
 import { DepartmentEditComponent } from './department-edit/department-edit.component';
@@ -38,6 +41,9 @@ import { CalendarModule } from '@syncfusion/ej2-angular-calendars';
     StudenteditComponent,
     TeacherComponent,
     TeacherlistComponent,
+    AddsubjectComponent,
+    ListsubjectComponent,
+    EditsubjectComponent,
     DepartmentListComponent,
     DepartmentAddComponent,
     DepartmentEditComponent,
