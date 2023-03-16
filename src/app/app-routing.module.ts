@@ -24,7 +24,7 @@ const routes: Routes = [
   {path:'departmentadd', component:DepartmentAddComponent},
   {path:'departmentedit', component:DepartmentEditComponent},
   {path:'feesCollection', component:FeesCollectionComponent},
-  {path:'register', component:RegisterComponent}
+  {path:'register', component:RegisterComponent},
   {path:'admin',component:AdminDashboardComponent},
   {path:'teachDash',component:TeacherDashboardComponent},
   {path:'studentDash',component:StudentDashboardComponent},

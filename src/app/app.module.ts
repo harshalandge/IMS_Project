@@ -42,7 +42,7 @@ import { CalendarModule } from '@syncfusion/ej2-angular-calendars';
     DepartmentAddComponent,
     DepartmentEditComponent,
     FeesCollectionComponent,
-    RegisterComponent
+    RegisterComponent,
     AdminDashboardComponent,
     TeacherDashboardComponent,
     StudentDashboardComponent
