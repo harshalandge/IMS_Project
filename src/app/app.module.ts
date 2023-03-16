@@ -8,9 +8,6 @@ import { MaterialModule } from './material/material.module';
 import { HeaderComponent } from './header/header.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { HomeComponent } from './home/home.component';
-import { StudentlistComponent } from './studentlist/studentlist.component';
-import { StudentaddComponent } from './studentadd/studentadd.component';
-import { StudenteditComponent } from './studentedit/studentedit.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TeacherComponent } from './teacher/teacher.component';
@@ -33,9 +30,6 @@ import { CalendarModule } from '@syncfusion/ej2-angular-calendars';
     HeaderComponent,
     SidenavComponent,
     HomeComponent,
-    StudentlistComponent,
-    StudentaddComponent,
-    StudenteditComponent,
     TeacherComponent,
     TeacherlistComponent,
     DepartmentListComponent,

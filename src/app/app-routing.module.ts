@@ -9,17 +9,19 @@ import { StudentDashboardComponent } from './dashboard/student-dashboard/student
 import { TeacherDashboardComponent } from './dashboard/teacher-dashboard/teacher-dashboard.component';
 import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
-import { StudentaddComponent } from './studentadd/studentadd.component';
-import { StudenteditComponent } from './studentedit/studentedit.component';
-import { StudentlistComponent } from './studentlist/studentlist.component';
+import { StudentlistComponent } from './student/studentlist/studentlist.component';
+import { StudentaddComponent } from './student/studentadd/studentadd.component';
+import { StudenteditComponent } from './student/studentedit/studentedit.component';
+import { StudentviewComponent } from './student/studentview/studentview.component';
+
 
 const routes: Routes = [
   {path:'',redirectTo:'home', pathMatch:'full'},
   {path:'home', component:HomeComponent},
-  {path:'studentlist',component:StudentlistComponent},
-  {path:'studentadd',component:StudentaddComponent},
-  {path:'studentedit',component:StudenteditComponent},
-  {path:'edit/:id',component:StudenteditComponent},
+  {path:'studentlist', component:StudentlistComponent},
+  {path:'studentedit', component:StudenteditComponent},
+  {path:'studentview', component:StudentviewComponent},
+  {path:'studentadd', component:StudentaddComponent},
   {path:'departmentlist', component:DepartmentListComponent},
   {path:'departmentadd', component:DepartmentAddComponent},
   {path:'departmentedit', component:DepartmentEditComponent},
