@@ -8,18 +8,47 @@ import { AdminDashboardComponent } from './dashboard/admin-dashboard/admin-dashb
 import { StudentDashboardComponent } from './dashboard/student-dashboard/student-dashboard.component';
 import { TeacherDashboardComponent } from './dashboard/teacher-dashboard/teacher-dashboard.component';
 import { HomeComponent } from './home/home.component';
+
+
+import { TeacheraddComponent } from './teacher/teacheradd/teacheradd.component';
+import { TeachereditComponent } from './teacher/teacheredit/teacheredit.component';
+import { TeacherlistComponent } from './teacher/teacherlist/teacherlist.component';
+import { TeacherviewComponent } from './teacher/teacherview/teacherview.component';
+
+
 import { RegisterComponent } from './register/register.component';
 import { StudentaddComponent } from './studentadd/studentadd.component';
 import { StudenteditComponent } from './studentedit/studentedit.component';
 import { StudentlistComponent } from './studentlist/studentlist.component';
+import { AddsubjectComponent } from './subject/addsubject/addsubject.component';
+import { EditsubjectComponent } from './subject/editsubject/editsubject.component';
+import { ListsubjectComponent } from './subject/listsubject/listsubject.component';
+
 
 const routes: Routes = [
   {path:'',redirectTo:'home', pathMatch:'full'},
   {path:'home', component:HomeComponent},
+
+
+ 
+  
+  {path:'teacherlist',component:TeacherlistComponent},
+      {path:'teacheradd',component:TeacheraddComponent},
+     {path:'teacheredit',component:TeachereditComponent},
+     {path:'teacherview',component:TeacherviewComponent}
+      
+
+  
+
+
   {path:'studentlist',component:StudentlistComponent},
   {path:'studentadd',component:StudentaddComponent},
   {path:'studentedit',component:StudenteditComponent},
   {path:'edit/:id',component:StudenteditComponent},
+
+  {path:'listsubject',component:ListsubjectComponent},
+  {path:'addsubject', component:AddsubjectComponent},
+  {path:'editsubject',component:EditsubjectComponent},
   {path:'departmentlist', component:DepartmentListComponent},
   {path:'departmentadd', component:DepartmentAddComponent},
   {path:'departmentedit', component:DepartmentEditComponent},
@@ -28,7 +57,7 @@ const routes: Routes = [
   {path:'admin',component:AdminDashboardComponent},
   {path:'teachDash',component:TeacherDashboardComponent},
   {path:'studentDash',component:StudentDashboardComponent},
-  
+
 ];
 
 @NgModule({
