@@ -15,6 +15,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TeacherComponent } from './teacher/teacher.component';
 import { TeacherlistComponent } from './teacher/teacherlist/teacherlist.component';
+import { DepartmentListComponent } from './department-list/department-list.component';
+import { DepartmentAddComponent } from './department-add/department-add.component';
+import { DepartmentEditComponent } from './department-edit/department-edit.component';
+import { FeesCollectionComponent } from './fees-collection/fees-collection.component';
+import { RegisterComponent } from './register/register.component';
 import { AdminDashboardComponent } from './dashboard/admin-dashboard/admin-dashboard.component';
 import { TeacherDashboardComponent } from './dashboard/teacher-dashboard/teacher-dashboard.component';
 import { StudentDashboardComponent } from './dashboard/student-dashboard/student-dashboard.component';
@@ -33,6 +38,11 @@ import { CalendarModule } from '@syncfusion/ej2-angular-calendars';
     StudenteditComponent,
     TeacherComponent,
     TeacherlistComponent,
+    DepartmentListComponent,
+    DepartmentAddComponent,
+    DepartmentEditComponent,
+    FeesCollectionComponent,
+    RegisterComponent
     AdminDashboardComponent,
     TeacherDashboardComponent,
     StudentDashboardComponent
