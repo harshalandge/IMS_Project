@@ -15,10 +15,27 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { TeacherlistComponent } from './teacher/teacherlist/teacherlist.component';
+
 import { TeacheraddComponent } from './teacher/teacheradd/teacheradd.component';
 
 import { TeachereditComponent } from './teacher/teacheredit/teacheredit.component';
 import { TeacherviewComponent } from './teacher/teacherview/teacherview.component';
+
+
+import { AddsubjectComponent } from './subject/addsubject/addsubject.component';
+import { ListsubjectComponent } from './subject/listsubject/listsubject.component';
+import { EditsubjectComponent } from './subject/editsubject/editsubject.component';
+import { DepartmentListComponent } from './department-list/department-list.component';
+import { DepartmentAddComponent } from './department-add/department-add.component';
+import { DepartmentEditComponent } from './department-edit/department-edit.component';
+import { FeesCollectionComponent } from './fees-collection/fees-collection.component';
+import { RegisterComponent } from './register/register.component';
+import { AdminDashboardComponent } from './dashboard/admin-dashboard/admin-dashboard.component';
+import { TeacherDashboardComponent } from './dashboard/teacher-dashboard/teacher-dashboard.component';
+import { StudentDashboardComponent } from './dashboard/student-dashboard/student-dashboard.component';
+import { NgApexchartsModule } from 'ng-apexcharts';
+// ---------------------------dashboard---------------
+import { CalendarModule } from '@syncfusion/ej2-angular-calendars';
 
 
 @NgModule({
@@ -27,6 +44,7 @@ import { TeacherviewComponent } from './teacher/teacherview/teacherview.componen
     HeaderComponent,
     SidenavComponent,
     HomeComponent,
+
 
   
   
@@ -38,6 +56,24 @@ import { TeacherviewComponent } from './teacher/teacherview/teacherview.componen
   
     
 
+
+    StudentlistComponent,
+    StudentaddComponent,
+    StudenteditComponent,
+    TeacherComponent,
+    TeacherlistComponent,
+    AddsubjectComponent,
+    ListsubjectComponent,
+    EditsubjectComponent,
+    DepartmentListComponent,
+    DepartmentAddComponent,
+    DepartmentEditComponent,
+    FeesCollectionComponent,
+    RegisterComponent,
+    AdminDashboardComponent,
+    TeacherDashboardComponent,
+    StudentDashboardComponent
+
   ],
   imports: [
     BrowserModule,
@@ -46,7 +82,9 @@ import { TeacherviewComponent } from './teacher/teacherview/teacherview.componen
    MaterialModule,
    HttpClientModule,
    FormsModule,
-   ReactiveFormsModule
+   ReactiveFormsModule,
+   NgApexchartsModule,
+   CalendarModule
     
   ],
   providers: [],

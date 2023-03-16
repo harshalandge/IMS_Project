@@ -17,13 +17,13 @@
         data-bs-parent="#accordionExample">
         <div class="accordion-body mx-4">
           <ul>
-            <li><a href="">
+            <li><a [routerLink]="['admin']">
                 <h3>Admin Dashboard</h3>
               </a></li>
-            <li> <a href="">
+            <li> <a [routerLink]="['teachDash']">
                 <h3>Teacher Dashboard</h3>
               </a></li>
-            <li> <a href="">
+            <li> <a [routerLink]="['studentDash']">
                 <h3>Student Dashboard</h3>
               </a></li>
           </ul>
@@ -52,7 +52,7 @@
               </a></li>
             <li> <a href="studentedit">
                 <h3>Student Edit</h3>
-              </a></li>
+              </a></li> 
           </ul>
         </div>
       </div>
@@ -96,13 +96,13 @@
         data-bs-parent="#accordionExample">
         <div class="accordion-body mx-4">
           <ul>
-            <li><a href="">
+            <li><a [routerLink]="['/departmentlist']">
                 <h3>Department List</h3>
               </a></li>
-            <li> <a href="">
+            <li> <a [routerLink]="['/departmentadd']">
                 <h3>Department Add</h3>
               </a></li>
-            <li> <a href="">
+            <li> <a [routerLink]="['departmentedit']">
                 <h3>Department Edit</h3>
               </a></li>
           </ul>
@@ -121,15 +121,18 @@
         data-bs-parent="#accordionExample">
         <div class="accordion-body mx-4">
           <ul>
-            <li><a href="">
+            <li><a href="listsubject">
                 <h3>Subject List</h3>
               </a></li>
-            <li> <a href="">
+            <li> <a href="addsubject">
                 <h3>Subject Add</h3>
               </a></li>
-            <li> <a href="">
+            <li> <a href="editsubject">
                 <h3>Subject Edit</h3>
               </a></li>
+
+
+              
           </ul>
         </div>
       </div>
@@ -152,7 +155,7 @@
         data-bs-parent="#accordionExample">
         <div class="accordion-body mx-4">
           <ul>
-            <li><a href="">
+            <li><a [routerLink]="['feesCollection']">
                 <h3>Fees Collection</h3>
               </a></li>
             <li> <a href="">
@@ -212,7 +215,7 @@
             <li><a href="">
                 <h3>Login</h3>
               </a></li>
-            <li> <a href="">
+            <li> <a [routerLink]="['/register/']">
                 <h3>Register</h3>
               </a></li>
             <li> <a href="">
