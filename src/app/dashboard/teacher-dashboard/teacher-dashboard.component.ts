@@ -10,7 +10,7 @@ import {
   ApexTitleSubtitle
   
 } from "ng-apexcharts";
-
+ 
 export type ChartOptions = {
   series: ApexNonAxisChartSeries;
   chart: ApexChart;
@@ -32,13 +32,14 @@ export class TeacherDashboardComponent {
      series: [50],
      chart: { 
        height: 350,
+       width:200,
        type: "radialBar"
      },
      
      plotOptions: {
        radialBar: {
          hollow: {
-           size: "70%"
+           size: "35%"
          }
        }
      },
